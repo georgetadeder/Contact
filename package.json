@@ -5,14 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "node index.js",
+    "lint": "next lint",
+    "server": "nodemon index.js"
   },
   "dependencies": {
-    "eslint": "8.41.0",
-    "eslint-config-next": "13.4.3",
-    "next": "13.4.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@chakra-ui/react": "^2.3.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "dotenv": "^16.0.3",
+    "framer-motion": "^6.5.1",
+    "next": "^13.0.0",
+    "nodemailer": "^6.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0"
   }
 }
